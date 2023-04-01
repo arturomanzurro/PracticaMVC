@@ -9,6 +9,7 @@ namespace PracticaMVC.Models
         [Display(Name ="Nombre de la Carrera")]
         public string? nombre_carrera { get;set; }
         [Display (Name ="ID de la Facultad")]
+
         public int facultad_id { get; set; }
 
     }
