@@ -47,6 +47,7 @@
  @Html.Label("lblcosto","Costo")
  @Html.TextBox("txtcosto","",new {@class="form-control"})
 </div>
+
 <div class="form-group">
     @Html.Label("lblvidautil","Vida Util")
     @Html.DropDownList("ddlvidautil",new SelectList(intLista),"Seleccione el año de vida util")
@@ -58,3 +59,4 @@
  <input type="submit" class="btn btn-success" value="Guardar" />
  @Html.ActionLink("Guardar","Guardar","Home")
 </div>
+
